@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [check]" guice-stage="DEVELOPMENT">
+  <test name="testXML(failed)">
+    <classes>
+      <class name="com.pyxispm.PyxisPerformanceAPI.check">
+        <methods>
+          <include name="GetWeatherDetailsInvalidCity"/>
+        </methods>
+      </class> <!-- com.pyxispm.PyxisPerformanceAPI.check -->
+    </classes>
+  </test> <!-- testXML(failed) -->
+</suite> <!-- Failed suite [check] -->
