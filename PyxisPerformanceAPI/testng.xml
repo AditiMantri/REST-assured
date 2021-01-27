@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="check">
-  <test thread-count="5" name="testXML">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.pyxispm.PyxisPerformanceAPI.check"/>
+      <class name="com.pyxispm.MediaPlanManagement.getMediaPlans"/>
     </classes>
-  </test> <!-- testXML -->
-</suite> <!-- check -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
